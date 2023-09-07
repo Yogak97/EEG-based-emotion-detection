@@ -1,0 +1,381 @@
+yoga@yoga-x556ur:~$ cd Desktop/
+yoga@yoga-x556ur:~/Desktop$ cd final\ eeg\ data\ combined/
+yoga@yoga-x556ur:~/Desktop/final eeg data combined$ python project.py 
+Hii !!!!!!Welcome to our System
+
+--------------------SVM Results--------------------------
+['happy' 'sad' 'sad' ... 'sad' 'happy' 'sad']
+
+
+Accuracy of model is:
+85.12736236647494 %
+Accuracy Score: 0.8512736236647493
+cross validated scores are:
+ [0.85312962 0.86988664 0.85115821 0.85890479 0.86679822 0.8628515 ]
+
+confusion matrix is:
+[[ 995  183]
+ [ 179 1077]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.85      0.84      0.85      1178
+         sad       0.85      0.86      0.86      1256
+
+   micro avg       0.85      0.85      0.85      2434
+   macro avg       0.85      0.85      0.85      2434
+weighted avg       0.85      0.85      0.85      2434
+
+--------------------Decision Tree Results--------------------------
+91.41331142152835 %
+cross validated scores are:
+ [0.92163627 0.93297191 0.9255791  0.92057227 0.92698569 0.92895905]
+
+confusion matrix is:
+[[1074  104]
+ [ 105 1151]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.91      0.91      0.91      1178
+         sad       0.92      0.92      0.92      1256
+
+   micro avg       0.91      0.91      0.91      2434
+   macro avg       0.91      0.91      0.91      2434
+weighted avg       0.91      0.91      0.91      2434
+
+--------------------------KNN-------------------------------------
+['happy' 'sad' 'sad' ... 'sad' 'happy' 'sad']
+97.32949876746096 %%%%%%
+cross validated scores are:
+ [0.92410054 0.91670774 0.92015771 0.92007893 0.92057227 0.91711889]
+
+confusion matrix is:
+[[1178    0]
+ [  65 1191]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.95      1.00      0.97      1178
+         sad       1.00      0.95      0.97      1256
+
+   micro avg       0.97      0.97      0.97      2434
+   macro avg       0.97      0.97      0.97      2434
+weighted avg       0.97      0.97      0.97      2434
+
+----------------------------NB------------------------------------------
+['sad' 'sad' 'sad' ... 'sad' 'sad' 'sad']
+55.382087099424815 %%%%%%
+cross validated scores are:
+ [0.53967472 0.54854608 0.55396747 0.54464726 0.54859398 0.5402072 ]
+
+confusion matrix is:
+[[ 117 1061]
+ [  25 1231]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.82      0.10      0.18      1178
+         sad       0.54      0.98      0.69      1256
+
+   micro avg       0.55      0.55      0.55      2434
+   macro avg       0.68      0.54      0.44      2434
+weighted avg       0.68      0.55      0.44      2434
+
+/home/yoga/anaconda3/lib/python3.5/site-packages/sklearn/ensemble/forest.py:248: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+[0.02204542 0.02648153 0.02545723 0.02710975 0.05848659 0.02888293
+ 0.0308486  0.02401755 0.03365439 0.1036982  0.02971127 0.03101154
+ 0.02997931 0.04647415 0.09198321 0.0249744  0.02533714 0.03310668
+ 0.05027991 0.09301293 0.02391761 0.02336988 0.0243461  0.03231181
+ 0.05950188]
+
+Hi! Welcome to our System for Predicting Emotions :
+
+
+
+We are working to predict your mood
+fitting
+/home/yoga/anaconda3/lib/python3.5/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+['happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy']
+
+
+yehhh....It seems that you are happy man
+bye
+------------------------KNN-----------------------
+['sad' 'sad' 'happy' 'sad' 'happy' 'sad' 'sad' 'happy' 'sad' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'sad' 'sad' 'sad' 'happy' 'happy']
+
+
+yehhh....It seems that you are happy man
+----------------------------------Decision tree---------------------
+['happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'sad' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'sad' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy']
+
+
+yehhh....It seems that you are happy man
+^Z
+[1]+  Stopped                 python3 project.py
+yoga@yoga-x556ur:~/Desktop/final eeg data combined$ 
+yoga@yoga-x556ur:~/Desktop/final eeg data combined$ python project.py 
+Hii !!!!!!Welcome to our System
+
+--------------------SVM Results--------------------------
+['happy' 'happy' 'happy' ... 'sad' 'sad' 'sad']
+
+
+Accuracy of model is:
+85.57929334428923 %
+Accuracy Score: 0.8557929334428923
+cross validated scores are:
+ [0.85312962 0.86988664 0.85115821 0.85890479 0.86679822 0.8628515 ]
+
+confusion matrix is:
+[[1049  204]
+ [ 147 1034]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.88      0.84      0.86      1253
+         sad       0.84      0.88      0.85      1181
+
+   micro avg       0.86      0.86      0.86      2434
+   macro avg       0.86      0.86      0.86      2434
+weighted avg       0.86      0.86      0.86      2434
+
+--------------------Decision Tree Results--------------------------
+92.35825801150371 %
+cross validated scores are:
+ [0.9255791  0.9319862  0.91966486 0.92057227 0.92106561 0.92698569]
+
+confusion matrix is:
+[[1148  105]
+ [  81 1100]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.93      0.92      0.93      1253
+         sad       0.91      0.93      0.92      1181
+
+   micro avg       0.92      0.92      0.92      2434
+   macro avg       0.92      0.92      0.92      2434
+weighted avg       0.92      0.92      0.92      2434
+
+--------------------------KNN-------------------------------------
+['happy' 'happy' 'happy' ... 'sad' 'sad' 'sad']
+97.90468364831553 %%%%%%
+cross validated scores are:
+ [0.92410054 0.91670774 0.92015771 0.92007893 0.92057227 0.91711889]
+
+confusion matrix is:
+[[1253    0]
+ [  51 1130]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.96      1.00      0.98      1253
+         sad       1.00      0.96      0.98      1181
+
+   micro avg       0.98      0.98      0.98      2434
+   macro avg       0.98      0.98      0.98      2434
+weighted avg       0.98      0.98      0.98      2434
+
+----------------------------NB------------------------------------------
+['sad' 'sad' 'sad' ... 'sad' 'sad' 'sad']
+52.71158586688578 %%%%%%
+cross validated scores are:
+ [0.53967472 0.54854608 0.55396747 0.54464726 0.54859398 0.5402072 ]
+
+confusion matrix is:
+[[ 125 1128]
+ [  23 1158]]
+classification report is:
+              precision    recall  f1-score   support
+
+       happy       0.84      0.10      0.18      1253
+         sad       0.51      0.98      0.67      1181
+
+   micro avg       0.53      0.53      0.53      2434
+   macro avg       0.68      0.54      0.42      2434
+weighted avg       0.68      0.53      0.42      2434
+
+/home/yoga/anaconda3/lib/python3.5/site-packages/sklearn/ensemble/forest.py:248: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+[0.02182569 0.02331489 0.03052084 0.02697412 0.07787473 0.03126079
+ 0.02767304 0.02312392 0.04169496 0.0761221  0.03438756 0.03229153
+ 0.03036531 0.04018921 0.10822145 0.02938013 0.02894322 0.03363091
+ 0.0546126  0.09841696 0.01910259 0.02080199 0.02063121 0.02735299
+ 0.04128728]
+
+Hi! Welcome to our System for Predicting Emotions :
+
+
+
+We are working to predict your mood
+fitting
+/home/yoga/anaconda3/lib/python3.5/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+['happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'sad' 'happy' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad']
+
+
+oooops...Bro you are lokking little sad
+
+
+bye
+------------------------KNN-----------------------
+['sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'happy' 'happy' 'sad' 'sad' 'sad' 'happy' 'happy' 'sad'
+ 'happy' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'happy' 'sad'
+ 'happy' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'happy' 'sad' 'happy'
+ 'happy' 'happy' 'sad' 'sad' 'happy' 'happy' 'sad' 'happy' 'sad' 'happy'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy' 'sad' 'sad' 'sad'
+ 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy'
+ 'happy' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'sad' 'sad' 'happy' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'happy'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'happy' 'sad'
+ 'happy' 'sad' 'happy' 'sad' 'sad' 'happy' 'sad' 'sad' 'happy' 'sad' 'sad'
+ 'sad' 'happy' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'happy'
+ 'happy' 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'sad' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy'
+ 'sad' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy']
+
+
+oooops...Bro you are lokking little sad
+
+
+----------------------------------Decision tree---------------------
+['sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad'
+ 'sad' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'happy' 'happy' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad'
+ 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'happy' 'sad' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'happy' 'happy'
+ 'happy' 'sad' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy' 'happy'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad'
+ 'sad' 'sad' 'happy' 'happy' 'happy' 'sad' 'happy' 'happy' 'happy' 'sad'
+ 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'sad' 'happy' 'happy' 'sad']
+
+
+oooops...Bro you are lokking little sad
+
+
+
+

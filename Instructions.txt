@@ -1,0 +1,12 @@
+Setup instructions:
+1. install emotivePro software on windows platform
+2. connect bluetoth or usb connector to pc and establish connection with the emotiv insight device
+3. Record data at wherever you want to.
+   in case of emotion detection subjects were shown respective emotions videos and data was recorded for 2 min 30 secs
+4. export the data into edf or csv format.
+
+Dataset: Provided
+
+for all other information please check the report and drive link shared.
+
+
